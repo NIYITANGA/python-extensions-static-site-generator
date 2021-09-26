@@ -1,5 +1,8 @@
 import sys
 from pathlib import Path
+from importlib import import_module
+
+from ssg import extensions, hooks
 
 
 class Site:
